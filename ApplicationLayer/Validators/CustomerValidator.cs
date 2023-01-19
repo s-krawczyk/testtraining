@@ -17,7 +17,12 @@
     {
       RuleFor(p => p.CustomerName)
         .MinimumLength(3)
-        .MaximumLength(32);
+        .MaximumLength(32)
+        .NotEmpty()
+        .NotNull();
+
+      RuleFor(p => p.PurchasesProduct)
+        .NotNull();
     }
 
     protected override void RaiseValidationException(ValidationContext<Customer> context, ValidationResult result)

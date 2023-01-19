@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationLayer", "Applica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailServiceWebApi", "EmailServiceWebApi\EmailServiceWebApi.csproj", "{FB4585A0-F50F-48E8-9398-21E571F89310}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectTraining", "TestProjectTraining\TestProjectTraining.csproj", "{AC67BBAE-9E8A-4791-8057-A05368885C6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FB4585A0-F50F-48E8-9398-21E571F89310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB4585A0-F50F-48E8-9398-21E571F89310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB4585A0-F50F-48E8-9398-21E571F89310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC67BBAE-9E8A-4791-8057-A05368885C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC67BBAE-9E8A-4791-8057-A05368885C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC67BBAE-9E8A-4791-8057-A05368885C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC67BBAE-9E8A-4791-8057-A05368885C6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
