@@ -20,13 +20,15 @@
 
     public async Task SendEmail(string toAddress, string message)
     {
-      await _httpClientFactory.CreateClient(nameof(EmailSender)).PostAsync("/api/email", JsonContent.Create(new Email
+      var client = _httpClientFactory.CreateClient(nameof(EmailSender));
+
+      HttpResponseMessage responseMessage = await client.PostAsync("/api/email", JsonContent.Create(new Email
       {
         Message = message,
         To = toAddress
       }));
+
+      responseMessage.EnsureSuccessStatusCode();
     }
-
-
   }
 }

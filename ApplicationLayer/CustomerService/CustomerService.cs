@@ -29,6 +29,7 @@ namespace ApplicationLayer.CustomerService
     public IEnumerable<Customer> GetAllCustomers()
     {
       return _repository.GetAll();
+      // mappowanie obiektu bazodanowego na DTO (Data Transfer Object)
     }
 
     public Customer GetCustomer(int id)
